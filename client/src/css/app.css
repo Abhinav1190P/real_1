@@ -1,0 +1,428 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+
+.image_1{
+    max-width: 100px;
+    max-height: 100px;
+  position: absolute;
+margin-left: 590px;
+ margin-top: -20px;
+ cursor: pointer;
+}
+
+.header{
+
+overflow: auto;
+background-color: rgb(48,48,48);
+width: 100%;
+height: 70px;
+
+
+}
+
+.the_nav{
+
+  float: right;
+}
+
+.ulist{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 25px;
+}
+
+.ulist li {
+  display: inline-block;
+  padding-right: 50px;
+  
+}
+.The_Home{
+width: 100%;
+height: 400vh;
+background-color: rgb(40,40,40);
+background-size: cover;
+background-position: center;
+display: table;
+background-attachment: fixed;
+}
+
+.ulist li a {
+  color: white;
+  text-decoration: none;
+  transition-duration: 500ms;
+}
+
+.ulist li a:hover {
+ color: #e3e;
+}
+
+.The_Home h1{
+  font-family: headfont;
+  color: white;
+  padding: 0;
+margin-left: 100px;
+  margin-top: 350px;
+  font-size: 60px;
+  cursor: pointer;
+}
+
+.The_Home h1 strong{
+  font-family: headfont;
+  color: white;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  margin-top: 150px;
+  font-size: 60px;
+  text-decoration: underline;
+  cursor: pointer;
+  transition-duration: 500ms;
+}
+.The_Home h1 strong:hover{
+color: aqua;
+}
+
+@font-face {
+  font-family: 'headfont';
+  src: url('../fonts//h1.TTF');
+}
+
+
+
+.intro_div{
+  width: 100%;
+  height: 800px;
+  background-color: white;
+background-position: center;
+display: table;
+background-attachment: fixed;
+margin-top: 400px;
+}
+
+
+
+
+.The_Home p{
+  margin-left: 100px;
+  margin-top: -30px;
+  font-family: headfont;
+  color: white;
+  font-size: 55px;
+}
+.showoff_div{
+  float: right;
+  background-color:  rgb(40,40,40);
+  height: 200px;
+  width: 400px;
+  margin-top: -245px;
+  margin-right: 100px;
+}
+
+
+.showoff_div .social_link{
+list-style: none;
+margin: 0;
+padding: 0;
+margin-top: 70px;
+margin-left: 50px;
+}
+
+.showoff_div .social_link li{
+display: inline-block;
+  margin-right: 30px;
+ 
+  }
+
+.showoff_div .social_link li a{
+color:white;
+
+}
+
+.showoff_div .social_link li a .fa-facebook:hover{
+  color: rgb(66 103 178);
+  transform: translateY(-3px);
+}
+.showoff_div .social_link li a .fa-instagram:hover{
+  color: rgb(131,58,180);
+  transform: translateY(-3px);
+}
+.showoff_div .social_link li a .fa-twitter:hover{
+  color: rgb(29 161 242);
+  transform: translateY(-3px);
+}
+
+.showoff_div .social_link li a .fa-youtube:hover{
+  color: rgb(255 0 0);
+  transform: translateY(-3px);
+}
+
+.in_img_1{
+  width: 300px;
+  height: 200px;
+
+
+}
+.in_img_2{
+  width: 300px;
+  height: 200px;
+
+  
+}
+.in_img_3{
+  width: 300px;
+  height: 200px;
+
+
+}
+.img_list{
+  list-style: none;
+ text-align: center;
+}
+
+.img_list li{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.head h2{
+text-align: center;
+}
+
+.para_holder {
+  margin-top: 50px;
+  margin-right: 90px;
+}
+
+.para_holder .intro_para{
+  color: black;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.top_line{
+  margin-left: 40px;
+}
+.bottom_line{
+  margin-left: 40px;
+}
+
+.service_div{
+
+  width: 100%;
+  height: 800px;
+  background-color: white;
+background-position: center;
+display: table;
+background-attachment: fixed;
+margin-top: 200px;
+
+}
+
+.card img{
+  margin: 0;
+  padding: 0;
+  width: 600px;
+  height: 400px;
+  margin-top: 20px;
+  margin-left: 100px;
+ 
+}
+
+.service_para h3{
+  margin: 0;
+  padding:0;
+ text-align: center;
+ margin-left: 650px;
+ margin-top: -300px;
+ font-size: 30px;
+ font-family: 'instafont';
+ cursor: pointer;
+ transition-duration: 500ms;
+
+}
+
+.service_para h3:hover{
+color:darkviolet;
+transform: translate3d(1px,1px,1px);
+
+}
+
+.service_para{
+  margin-left: 100px;
+ 
+}
+.service_para p{
+font-size: 15px;
+color: black;
+margin-left: 650px;
+margin-top: 30px
+
+}
+
+@font-face {
+  font-family: 'instafont';
+  src: url('../fonts/insta.ttf');
+}
+
+.service_para .fa-instagram{
+position: absolute;
+margin-left: 675px;
+margin-top: -5px;
+
+}
+
+.the_social_service_container{
+  margin-right: 200px;
+}
+
+.the_technologies_container p{
+  font-size: 15px;
+color: black;
+margin-top: 100px;
+margin-right: 650px;
+}
+
+.mywork_img img{
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  height: 200px;
+  float: right;
+  margin-right: 210px;
+  margin-top: -170px;
+}
+
+h4{
+position: absolute;
+font-family:'instafont';
+margin-left:200px;
+margin-top: -70px;
+font-size: 30px;
+cursor: pointer;
+transition-duration: 500ms;
+
+}
+
+
+h4:hover{
+  transform: translate3d(1px,1px,1px);
+  color: crimson;
+}
+
+
+.the_form{
+
+  width: 100%;
+  height: 800px;
+  background-color: white;
+background-position: center;
+display: table;
+background-attachment: fixed;
+margin-top: 200px;
+
+}
+
+
+.the_form form{
+margin-left: 500px;
+margin-top: 150px 
+}
+@font-face {
+  font-family: 'inputfont';
+  src: url('../fonts/input.ttf');
+}
+
+
+.the_form form input{
+outline: none;
+border-left: none;
+border-right: none;
+border-top: none;
+height: 20px;   
+width: 300px;
+font-family: 'inputfont';
+font-size: 30px;
+transition-delay: 100ms;
+  }
+
+.the_form form .lastname_input{
+margin-top: 90px;
+}
+  
+.the_form form button{
+ margin-left: 220px;
+ margin-top: 30px;
+ background: transparent;
+ border-radius: 20px;
+ width: 80px;
+ height: 25px;
+
+}
+
+
+.the_form form .email_input{
+  margin-top: 90px;
+  }
+    
+  @font-face {
+    font-family: 'h5font';
+    src: url('../fonts/h5.otf');
+  }
+ 
+  
+
+h5{
+  font-family: 'h5font';
+text-align: center;
+font-size: 40px;
+margin-left: 30px
+}
+
+.the_form form input:hover{
+  border:2px solid greenyellow;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.status_true{
+  width:300px;
+  height: 50px;
+  margin-top: 50px;  
+  margin-left: -50px;
+}
+
+.status_false{
+  width:300px;
+  height: 50px;
+  margin-top: 50px;  
+  margin-left: -50px;
+}
+
+.status_true .the_msg_para{
+  text-align: center;
+  color: red;
+  font-family: italic;
+  font-size: 15px;
+
+}
+
+.status_false .the_msg_para{
+  text-align: center;
+  color: red;
+  font-family: italic;
+  font-size: 15px;
+
+}
